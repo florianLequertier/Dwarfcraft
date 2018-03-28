@@ -78,7 +78,7 @@ void jeu( FilePath& applicationPath, SDLWindowManager& windowManager,int optionM
 
      if(ptr_texture ==NULL)
      {
-        std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::cout;
+        std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::endl;
      }
     GLuint texture_cube;
     glGenTextures(1, &texture_cube);

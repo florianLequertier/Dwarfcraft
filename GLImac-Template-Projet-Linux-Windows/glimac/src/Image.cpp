@@ -51,7 +51,7 @@ GLuint LoadImageFromFile(std::string path_string, Config& confData)
 
     if(ptr_texture ==NULL)
     {
-       std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::cout;
+       std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::endl;
     }
     GLuint textureId;
     glGenTextures(1, &textureId);
@@ -98,7 +98,7 @@ GLuint LoadImageFromFile(std::string path_string)
 
     if(ptr_texture ==NULL)
     {
-       std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::cout;
+       std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::endl;
     }
     GLuint textureId;
     glGenTextures(1, &textureId);

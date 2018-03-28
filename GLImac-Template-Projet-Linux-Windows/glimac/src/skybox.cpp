@@ -122,7 +122,7 @@ void Skybox::setupCubeMap( const glimac::FilePath& imgName)
     std::unique_ptr<Image> texImg = glimac::loadImage(imgName);
     if(texImg == NULL)
     {
-       std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::cout;
+       std::cout<<"coucou je suis une erreur de chargement de texture !!! "<<std::endl;
     }
 
 

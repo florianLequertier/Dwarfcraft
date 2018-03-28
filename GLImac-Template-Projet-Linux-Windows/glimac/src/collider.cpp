@@ -42,8 +42,3 @@ bool Collider::testCollisionWithPoint(glm::vec3 point)
 {
     return false;
 }
-
-std::vector<glm::vec3> Collider::getVerticesFace()
-{
-
-}

@@ -22,7 +22,7 @@ virtual bool testCollision(Collider& other) = 0;
 virtual void setPosition(glm::vec3 newPosition);
 virtual glm::vec3 getPosition() const;
 virtual bool testCollisionWithPoint(glm::vec3 point);
-virtual std::vector<glm::vec3> getVerticesFace();
+virtual std::vector<glm::vec3> getVerticesFace() = 0;
 //virtual bool testCollisionCube(CubeCollider* other) = 0;
 //virtual bool testCollisionSphere(SphereCollider* other) = 0;
 

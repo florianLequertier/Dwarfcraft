@@ -1,0 +1,209 @@
+﻿  Building Custom Rule D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt
+  CMake does not need to re-run because D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp is up-to-date.
+  Cone.cpp
+  Geometry.cpp
+  Image.cpp
+  Program.cpp
+  SDLWindowManager.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\SDLWindowManager.cpp(23): warning C4800: 'int' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\SDLWindowManager.cpp(27): warning C4800: 'Uint8' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\SDLWindowManager.cpp(32): warning C4800: 'int' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+  Shader.cpp
+  Sphere.cpp
+  camera.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac/opengl_tool.h(10): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  character.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+  chunk.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(29): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(120): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(122): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(125): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(126): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(133): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(137): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(620): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(622): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(925): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(927): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(1424): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(1426): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(1431): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+  collider.cpp
+  config.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\config.cpp(58): warning C4800: 'const int' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+  cube.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+  cubeCollider.cpp
+  directionnalLight.cpp
+  force.cpp
+  freeFlyCamera.cpp
+  item.cpp
+  itemCube.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemCube.cpp(384): warning C4244: 'argument' : conversion de 'float' en 'GLint', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemCube.cpp(414): warning C4305: '+=' : troncation de 'double' à 'float'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemCube.cpp(416): warning C4305: '+=' : troncation de 'double' à 'float'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemCube.cpp(420): warning C4305: '+=' : troncation de 'double' à 'float'
+  itemManager.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemManager.cpp(22): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemManager.cpp(40): warning C4018: '<' : incompatibilité signed/unsigned
+  Génération de code en cours...
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\src\cubecollider.cpp(35): warning C4715: 'CubeCollider::testCollision' : les chemins de contrôle ne retournent pas tous une valeur
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\src\cubecollider.cpp(70): warning C4715: 'CubeCollider::testCollision' : les chemins de contrôle ne retournent pas tous une valeur
+  Compilation en cours...
+  itemModel.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemModel.cpp(132): warning C4305: '+=' : troncation de 'double' à 'float'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemModel.cpp(134): warning C4305: '+=' : troncation de 'double' à 'float'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemModel.cpp(138): warning C4305: '+=' : troncation de 'double' à 'float'
+  light.cpp
+  lightManager.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(63): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(67): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(72): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(79): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(89): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(92): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(97): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(104): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(137): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(141): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(146): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(153): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(163): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(166): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(171): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp(178): warning C4018: '<' : incompatibilité signed/unsigned
+  map.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(26): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(33): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(92): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(96): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(273): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(286): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(290): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(309): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(349): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(373): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(382): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(386): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(409): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(426): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(439): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(506): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(511): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(516): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(549): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(554): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(559): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(641): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(646): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp(651): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  menu.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+  mesh.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp(112): warning C4244: 'argument' : conversion de 'GLuint' en 'GLfloat', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp(148): warning C4244: 'argument' : conversion de 'GLuint' en 'GLfloat', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp(218): warning C4244: 'argument' : conversion de 'GLuint' en 'GLfloat', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp(278): warning C4244: 'argument' : conversion de 'GLuint' en 'GLfloat', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp(321): warning C4244: 'argument' : conversion de 'GLuint' en 'GLfloat', perte possible de données
+  model.cpp
+  opengl_tool.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac/opengl_tool.h(10): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  particule.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particule.cpp(79): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particule.cpp(80): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particule.cpp(81): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particule.cpp(82): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+  particuleEmitter.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(333): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(334): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(335): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(336): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(399): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(400): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(401): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp(402): warning C4244: '=' : conversion de 'float' en 'GLubyte', perte possible de données
+  particuleManager.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleManager.cpp(9): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleManager.cpp(92): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleManager.cpp(106): warning C4018: '<' : incompatibilité signed/unsigned
+  perlin.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac/opengl_tool.h(10): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  player.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\player.cpp(25): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\player.cpp(48): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\player.cpp(73): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  pointLight.cpp
+  rigidBody.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp(13): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp(65): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp(80): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp(104): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp(191): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp(198): warning C4018: '<' : incompatibilité signed/unsigned
+  shadowmap.cpp
+  skybox.cpp
+  tiny_obj_loader.cpp
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tiny_obj_loader.cpp(336): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: voir la déclaration de 'sscanf'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tiny_obj_loader.cpp(625): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: voir la déclaration de 'sscanf'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tiny_obj_loader.cpp(645): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: voir la déclaration de 'sscanf'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tiny_obj_loader.cpp(705): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: voir la déclaration de 'sscanf'
+  tinystr.cpp
+  tinyxml.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  trackBallCamera.cpp
+  transformable.cpp
+  visualLoad.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\visualLoad.cpp(138): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\visualLoad.cpp(140): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\visualLoad.cpp(142): warning C4305: 'argument' : troncation de 'double' à 'GLfloat'
+  Génération de code en cours...
+  glimac.vcxproj -> D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\lib\Release\glimac.lib

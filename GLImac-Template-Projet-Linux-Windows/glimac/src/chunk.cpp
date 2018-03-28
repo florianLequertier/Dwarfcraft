@@ -53,11 +53,12 @@ void Chunk::updateChunkVBO()
 
     nbCubeAffichage = 0;
     ///position des cubes :
-    glm::vec3 pos_temp[nbCube*nbCube*nbCube];
+	const int bufferSize = nbCube * nbCube * nbCube;
+    std::vector<glm::vec3> pos_temp(bufferSize);
     ///decalage de texture des cubes :
-    float indice_texture[nbCube*nbCube*nbCube];
+	std::vector<float> indice_texture(bufferSize);
     ///focus des cubes :
-    float focus_cube[nbCube*nbCube*nbCube];
+	std::vector<float> focus_cube(bufferSize);
 
     for(int i=0; i<nbCube; i++)
      {
@@ -93,18 +94,18 @@ void Chunk::updateChunkVBO()
     ///Mise à jour des vbos :
     glBindBuffer(GL_ARRAY_BUFFER, vbo_position);
         glBufferData(GL_ARRAY_BUFFER, nbCube*nbCube*nbCube*sizeof(glm::vec3), NULL, GL_STATIC_DRAW);
-        glBufferSubData(GL_ARRAY_BUFFER,0, nbCubeAffichage * sizeof(glm::vec3), pos_temp );
+        glBufferSubData(GL_ARRAY_BUFFER,0, nbCubeAffichage * sizeof(glm::vec3), &pos_temp[0] );
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     glBindBuffer(GL_ARRAY_BUFFER, vbo_indiceTexture);
         glBufferData(GL_ARRAY_BUFFER, nbCube*nbCube*nbCube*sizeof(GLfloat), NULL, GL_STATIC_DRAW);
-        glBufferSubData(GL_ARRAY_BUFFER, 0, nbCubeAffichage * sizeof(float), indice_texture );
+        glBufferSubData(GL_ARRAY_BUFFER, 0, nbCubeAffichage * sizeof(float), &indice_texture[0] );
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
     glBindBuffer(GL_ARRAY_BUFFER, vbo_hasFocus);
         glBufferData(GL_ARRAY_BUFFER,nbCube*nbCube*nbCube*sizeof(GLfloat), NULL, GL_STATIC_DRAW);
-        glBufferSubData(GL_ARRAY_BUFFER, 0, nbCubeAffichage*sizeof(float), focus_cube);
+        glBufferSubData(GL_ARRAY_BUFFER, 0, nbCubeAffichage*sizeof(float), &focus_cube[0]);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
@@ -650,12 +651,12 @@ Chunk::Chunk(Cube** tabCubeSurface, const FilePath& applicationPath, int _nbText
 
 
 
-    ///position des cubes :
-    glm::vec3 pos_temp[nbCube*nbCube*nbCube];
-    ///decalage de texture des cubes :
-    float indice_texture[nbCube*nbCube*nbCube];
-    ///focus des cubes :
-    float focus_cube[nbCube*nbCube*nbCube];
+	const int bufferSize = nbCube * nbCube * nbCube;
+	std::vector<glm::vec3> pos_temp(bufferSize);
+	///decalage de texture des cubes :
+	std::vector<float> indice_texture(bufferSize);
+	///focus des cubes :
+	std::vector<float> focus_cube(bufferSize);
 
      for(int i=0; i<nbCube; i++)
      {
@@ -681,19 +682,19 @@ Chunk::Chunk(Cube** tabCubeSurface, const FilePath& applicationPath, int _nbText
 
         glGenBuffers(1, &vbo_position);
      glBindBuffer(GL_ARRAY_BUFFER, vbo_position);
-     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(glm::vec3), pos_temp, GL_STATIC_DRAW);
+     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(glm::vec3), &pos_temp[0], GL_STATIC_DRAW);
      glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
         // GLuint vbo_indiceTexture;
         glGenBuffers(1, &vbo_indiceTexture);
     glBindBuffer(GL_ARRAY_BUFFER, vbo_indiceTexture);
-    glBufferData(GL_ARRAY_BUFFER, nbCubeAffichage*sizeof(float), indice_texture, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, nbCubeAffichage*sizeof(float), &indice_texture[0], GL_STATIC_DRAW);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
             glGenBuffers(1, &vbo_hasFocus);
      glBindBuffer(GL_ARRAY_BUFFER, vbo_hasFocus);
-     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(float), focus_cube, GL_STATIC_DRAW);
+     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(float), &focus_cube[0], GL_STATIC_DRAW);
      glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
@@ -955,12 +956,12 @@ Chunk::Chunk(const FilePath& applicationPath, int _nbTextureCube, int longueur_c
 
 
 
-    ///position des cubes :
-    glm::vec3 pos_temp[nbCube*nbCube*nbCube];
-    ///decalage de texture des cubes :
-    float indice_texture[nbCube*nbCube*nbCube];
-    ///focus des cubes :
-    float focus_cube[nbCube*nbCube*nbCube];
+	const int bufferSize = nbCube * nbCube * nbCube;
+	std::vector<glm::vec3> pos_temp(bufferSize);
+	///decalage de texture des cubes :
+	std::vector<float> indice_texture(bufferSize);
+	///focus des cubes :
+	std::vector<float> focus_cube(bufferSize);
 
       for(int i=0; i<nbCube; i++)
      {
@@ -994,19 +995,19 @@ Chunk::Chunk(const FilePath& applicationPath, int _nbTextureCube, int longueur_c
 
         glGenBuffers(1, &vbo_position);
      glBindBuffer(GL_ARRAY_BUFFER, vbo_position);
-     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(glm::vec3), pos_temp, GL_STATIC_DRAW);
+     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(glm::vec3), &pos_temp[0], GL_STATIC_DRAW);
      glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
         // GLuint vbo_indiceTexture;
         glGenBuffers(1, &vbo_indiceTexture);
     glBindBuffer(GL_ARRAY_BUFFER, vbo_indiceTexture);
-    glBufferData(GL_ARRAY_BUFFER, nbCubeAffichage*sizeof(float), indice_texture, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, nbCubeAffichage*sizeof(float), &indice_texture[0], GL_STATIC_DRAW);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
             glGenBuffers(1, &vbo_hasFocus);
      glBindBuffer(GL_ARRAY_BUFFER, vbo_hasFocus);
-     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(float), focus_cube, GL_STATIC_DRAW);
+     glBufferData(GL_ARRAY_BUFFER,nbCubeAffichage*sizeof(float), &focus_cube[0], GL_STATIC_DRAW);
      glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
@@ -1463,7 +1464,7 @@ void Chunk::updateTarget( int i, int j, int k)
 
     int positionTarget = k*nbCube*nbCube + j*nbCube + i;
     ///focus des cubes :
-    float focus_cube[nbCube*nbCube*nbCube];
+    std::vector<float> focus_cube(nbCube*nbCube*nbCube);
     nbCubeAffichage = 0;
 
     for(int i=0; i<nbCube; i++)
@@ -1492,7 +1493,7 @@ void Chunk::updateTarget( int i, int j, int k)
     ///Mise à jour des vbos :
     glBindBuffer(GL_ARRAY_BUFFER, vbo_hasFocus);
         glBufferData(GL_ARRAY_BUFFER, nbCube*nbCube*nbCube*sizeof(float), NULL, GL_STATIC_DRAW);
-        glBufferSubData(GL_ARRAY_BUFFER,0, nbCubeAffichage * sizeof(float), focus_cube );
+        glBufferSubData(GL_ARRAY_BUFFER,0, nbCubeAffichage * sizeof(float), &focus_cube[0] );
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 }

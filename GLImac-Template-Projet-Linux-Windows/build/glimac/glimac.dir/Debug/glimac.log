@@ -1,0 +1,20 @@
+﻿  chunk.cpp
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(158): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(180): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(192): warning C4018: '<' : incompatibilité signed/unsigned
+d:\programmation\repo_git\dwarfcraft\glimac-template-projet-linux-windows\glimac\include\glimac\map.hpp(214): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(29): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(120): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(122): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(125): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(126): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(133): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(137): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(620): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(622): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(925): warning C4018: '<' : incompatibilité signed/unsigned
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(927): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(1424): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(1426): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp(1431): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+  glimac.vcxproj -> D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\lib\Debug\glimac.lib
