@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\CMakeFiles\71725ee8f494882fb8f70967da208b83\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AD466355-283B-371A-AC77-5013E574030E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Cone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\SDLWindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\cubeCollider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\directionnalLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\force.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\freeFlyCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\opengl_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\perlin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\pointLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\shadowmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tiny_obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\trackBallCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\transformable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\visualLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\BBox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Cone.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\FilePath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Geometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Program.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\SDLWindowManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Sphere.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\character.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\chunk.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\collider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\cube.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\cubeCollider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\directionnalLight.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\force.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\freeFlyCamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\glm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\item.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\itemCube.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\itemManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\itemModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\light.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\lightManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\menu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\particule.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\particuleEmitter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\particuleManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\pointLight.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\rigidBody.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\save.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\shadowMap.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\shared.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\skybox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\tinystr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\tinyxml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\trackBallCamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\transformable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\vertexType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\visualLoad.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{735777D7-4727-3014-B11E-73C532BCBB2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{366851E5-33FB-3FFE-84CF-958E35F5545D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

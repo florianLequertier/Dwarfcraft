@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Imacraft.dir/src/SDLtemplate.cpp.o  -o bin/Imacraft -rdynamic lib/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread -lGLU -lGL -lSM -lICE -lX11 -lXext -lGLEW -lassimp 

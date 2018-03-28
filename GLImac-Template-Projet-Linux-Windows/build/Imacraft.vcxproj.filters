@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\src\SDLtemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\color2D.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\color2D.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\item2D.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\item2D.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\item3D.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\item3D.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\mapCubeL.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\mapCubeL.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\mesh_light.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\mesh_light.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\mesh_shader.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\mesh_shader.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\particleTex.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\particleTex.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\simple2D.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\simple2D.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\simpleTex2D.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\simpleTex2D.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\skyShader.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\skyShader.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\tex2D.fs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\shaders\tex2D.vs.glsl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cornell_box.mtl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cornell_box.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cube.blend" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cube.blend1" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cube.dae" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cube.mtl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\cube.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\arm_dif.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\arm_showroom_ddn.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\arm_showroom_spec.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\body_dif.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\body_showroom_ddn.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\body_showroom_spec.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\glass_ddn.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\glass_dif.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\hand_dif.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\hand_showroom_ddn.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\hand_showroom_spec.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\helmet_diff.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\helmet_showroom_ddn.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\helmet_showroom_spec.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\leg_dif.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\leg_showroom_ddn.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\leg_showroom_spec.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\nanosuit.blend" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\nanosuit.mtl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\nanosuit\nanosuit.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\pioche\pioche.mtl" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\pioche\pioche.obj">
+      <Filter>Object Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\pioche\pioche_diff.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\pioche\pioche_spec.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\untitled.dae" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\models\untitled.fbx" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\CloudMap.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\EarthMap.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\MoonMap.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\chargement_texture.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\cobble2.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\fire_unity.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\fond_minecraft.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\fond_minecraft.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\grassp.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\menu_fond.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\menu_fond.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_opt01.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_opt02.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_xneg.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_xneg.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_xpos.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_xpos.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_yneg.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_yneg.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_ypos.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_ypos.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_zneg.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_zneg.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_zpos.jpg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\skybox_texture_zpos.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes_02.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes_03.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes_04.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes_low.jpeg" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes_low.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\texture_cubes_psd.psd" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\triforce.bmp" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\assets\textures\triforce.png" />
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{735777D7-4727-3014-B11E-73C532BCBB2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{22DD9215-4D94-314D-B959-384337A88082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

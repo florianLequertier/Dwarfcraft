@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{58EDF557-56CE-37FB-946C-6F929163E7A2}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>glimac</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glimac.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glimac</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glimac.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glimac</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">glimac.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">glimac</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">glimac.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">glimac</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include\Windows;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\third-party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows -BD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/build --check-stamp-file D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows -BD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/build --check-stamp-file D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows -BD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/build --check-stamp-file D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows -BD:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/build --check-stamp-file D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/glimac/CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\build\glimac\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\BBox.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Cone.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\FilePath.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Geometry.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Image.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Program.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\SDLWindowManager.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Shader.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\Sphere.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\character.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\chunk.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\collider.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\common.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\config.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\cube.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\cubeCollider.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\directionnalLight.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\force.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\freeFlyCamera.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\glm.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\item.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\itemCube.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\itemManager.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\itemModel.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\light.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\lightManager.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\map.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\menu.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\mesh.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\model.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\particule.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\particuleEmitter.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\particuleManager.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\player.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\pointLight.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\rigidBody.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\save.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\shadowMap.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\shared.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\skybox.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\tinystr.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\tinyxml.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\trackBallCamera.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\transformable.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\vertexType.hpp" />
+    <ClInclude Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\include\glimac\visualLoad.hpp" />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Cone.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Geometry.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Image.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Program.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\SDLWindowManager.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Shader.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\Sphere.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\camera.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\character.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\chunk.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\collider.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\config.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\cube.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\cubeCollider.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\directionnalLight.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\force.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\freeFlyCamera.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\item.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemCube.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemManager.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\itemModel.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\light.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\lightManager.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\map.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\menu.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\mesh.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\model.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\opengl_tool.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particule.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleEmitter.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\particuleManager.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\perlin.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\player.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\pointLight.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\rigidBody.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\shadowmap.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\skybox.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tiny_obj_loader.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinystr.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinyxml.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinyxmlerror.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\tinyxmlparser.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\trackBallCamera.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\transformable.cpp"  />
+    <ClCompile Include="D:\programmation\repo_git\Dwarfcraft\GLImac-Template-Projet-Linux-Windows\glimac\src\visualLoad.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/programmation/repo_git/Dwarfcraft/GLImac-Template-Projet-Linux-Windows/build/ZERO_CHECK.vcxproj">
+      <Project>D47B7D05-D104-3713-A067-4890F2B593C7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
